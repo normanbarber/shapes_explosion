@@ -1,0 +1,31 @@
+canvas{position:fixed;bottom:15px;left:0;}
+#canvas{float: left;color:#ffffff;}
+#canvas.active{background: none;}
+.canvastext{padding-top:35px;}
+@media only screen and (min-height: 925px) and (max-height: 950px) {
+canvas{position:fixed;bottom:0px;}
+}
+@media only screen and (min-height: 900px) and (max-height: 924px) {
+canvas{position:fixed;bottom:-10px;}
+}
+@media only screen and (min-height: 876px) and (max-height: 899px) {
+canvas{position:fixed;bottom:-15px;}
+}
+@media only screen and (min-height: 851px) and (max-height: 875px) {
+canvas{position:fixed;bottom:-20px;}
+}
+@media only screen and (min-height: 826px) and (max-height: 850px) {
+canvas{position:fixed;bottom:-30px;}
+}
+@media only screen and (min-height: 800px) and (max-height: 825px) {
+canvas{position:fixed;bottom:-40px;}
+}
+@media only screen and (min-height: 700px) and (max-height: 799px) {
+canvas{position:fixed;bottom:-50px;left:-500px;}
+}
+@media only screen and (min-height: 200px) and (max-height: 699px) {
+#canvas{display:none;}
+}
+@media only screen and (min-width: 99px) and (max-width: 979px) {
+canvas{display:none;}
+}
